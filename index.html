@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+			<title>Portfolio - REQUISTON Timothé</title>
+				<link rel=stylesheet href="default.css"/>
+				<link rel=icon type=image/png href=weblogo.png />
+		<meta name=viewport content="width=device-width, initial-scale=1.0">
+	</head>
+<style>html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;font-size:20px}#myBtn{transition-duration:.4s;display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:18px;border:0;outline:0;background-color:#3fb0d9;color:white;cursor:pointer;padding:15px;border-radius:8px}#myBtn:hover{transition-duration:.4s;background-color:#73c7e6}#myImg{border-radius:5px;cursor:pointer;transition:.3s}#myImg:hover{opacity:.7}.modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,0.9)}.modal-content{margin:auto;display:block;width:80%;max-width:700px}#caption{margin:auto;display:block;width:80%;max-width:700px;text-align:center;color:#ccc;padding:10px 0;height:150px}.modal-content,#caption{-webkit-animation-name:zoom;-webkit-animation-duration:.6s;animation-name:zoom;animation-duration:.6s}@-webkit-keyframes zoom{from{-webkit-transform:scale(0)}to{-webkit-transform:scale(1)}}@keyframes zoom{from{transform:scale(0)}to{transform:scale(1)}}.close{position:absolute;top:15px;right:35px;color:#f1f1f1;font-size:40px;font-weight:bold;transition:.3s}.close:hover,.close:focus{color:#bbbb;text-decoration:none;cursor:pointer}@media only screen and (max-width:700px){.modal-content{width:100%}}</style>
+<button onclick=topFunction() id=myBtn title="Retourner en haut">Retourner en haut</button>
+	<body>
+		<h1 class=port_text>Portfolio - REQUISTON Timothé</h1>
+			<div class=topnav id=myTopnav>
+				<a class=title_web href=#myself>Présentation</a>
+				<a class=title_web href=#school>Parcours scolaire</a>
+				<a class=title_web href=#cv>Curriculum vitæ</a>
+				<a class=title_web href=#sit>Situations professionnelles</a>
+		<div class=dropdown>
+<button class=dropbtn>Mes projets
+<i class="fa fa-caret-down"></i>
+</button>
+			<div class=dropdown-content>
+				<a class=title_web href=#proj1>Première réalisation</a>
+				<a class=title_web href=#proj2>Seconde réalisation</a>
+			</div>
+		</div>
+<br>
+<a href=javascript:void(0) class=icon onclick=myFunction()>&#9776;</a><br><br><br><br>
+			</div>
+				<p><a class=titles_text id=myself>Présentation</a></p><br>
+					<p>Bonjour, moi c'est Timothé REQUISTON, j'ai 19 ans et je fais un BTS SIO au<br>
+					lycée Mathias à châlon sur Saône.Voici mon Portfolio (siteweb) professionnel.<br><br></p>
+					<u>Vous y trouverez</u> :<br><br>
+						<p><li>Mon Parcours scolaire</li></p>
+						<p><li>Mon Curriculum vitæ</li></p>
+						<p><li>Mes Situations professionnelles</li></p>
+						<p><li>Mes projets (Professionnels/personel)</li></p>
+						<p><li>Et plus au fur et à mesure de mon avenir</li></p><br><br><br><br>
+						<p><a class=titles_text id=school>Parcours scolaire</a></p>
+			<div class=container>
+				<ul class=progressbar>
+					<li class=active2>Brevet des collèges (2016/2017)</li>
+					<li class=active2>Brevet d'étutes professionnelles (2018/2019)</li>
+					<li class=active2>Baccalauréat professionnel Système Numérique (2019/2020)</li>
+					<li>Brevet de Technicien Supérieur SIO (2021/2022)</li>
+				</ul>
+			</div>
+<br><br><br><br><br><br><br><br><br><br>
+						<p><a class=titles_text id=cv>Curriculum vitæ</a></p><br>
+							<img class=title_web id=myImg src=cv.png Alt="Mon Curriculum vitæ" style=width:100%;max-width:200px></img><br><br><br>
+								<a href=cv.pdf target=_blank class=button>Télécharger (PDF)</a><br><br><br><br><br><br>
+			<div id=myModal class=modal>
+				<span class=close>&times;</span>
+					<img class=modal-content id=img01>
+						<div id=caption></div>
+			</div>
+						<p><a class=titles_text id=sit>Situations professionnelles</a></p><br>
+							<p>Voici mes situations professionnelles que j'ai faites durant ma formation en Brevet de Technicien Supérieur SIO.</p><br>
+								<p><li>Situation 1</li></p>
+								<p><li>Situation 2</li></p>
+								<p><li>Situation 3</li></p>
+								<p><li>Situation 4</li></p><br><br>
+						<p><a class=titles_text>Mes projets</a></p><br>
+							<p><u><a class=proj_text id=proj1>Première réalisation</a></u> :</p>
+								<p>Ceci est une première réalisation.</p><br><br>
+									<img src=réa1.png class=proj_img Alt="Première réalisation"></img><br><br><br><br>
+							<p><u><a class=proj_text id=proj2>Seconde réalisation</a></u> :</p>
+								<p>Ceci est une seconde réalisation.</p><br><br>
+									<img src=réa2.png class=proj_img Alt="Première réalisation"></img>
+	</body>
+		<script src=https://kit.fontawesome.com/46e2646893.js crossorigin=anonymous></script>
+	<script>var mybutton=document.getElementById("myBtn");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>300||document.documentElement.scrollTop>300){mybutton.style.display="block"}else{mybutton.style.display="none"}}function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0}var modal=document.getElementById("myModal");var img=document.getElementById("myImg");var modalImg=document.getElementById("img01");var captionText=document.getElementById("caption");img.onclick=function(){modal.style.display="block";modalImg.src=this.src;captionText.innerHTML=this.alt};var span=document.getElementsByClassName("close")[0];span.onclick=function(){modal.style.display="none"};</script>
+</html>
