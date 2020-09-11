@@ -180,7 +180,7 @@ b {
 
 .container {
       width: 600px;
-      margin: 100px auto; 
+      margin: 100px auto;
   }
   .progressbar {
       counter-reset: step;
@@ -189,7 +189,7 @@ b {
       list-style-type: none;
       width: 25%;
       float: left;
-      font-size: 12px;
+      font-size: 18px;
       position: relative;
       text-align: center;
       text-transform: lowerrcase;
