@@ -1,127 +1,32 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8"/>
-			<title>REQUISTON Timothé - Site web</title>
-				<link rel=stylesheet href="default.css"/>
-				<link rel=icon type=image/png href=weblogo.png />
-		<meta name=viewport content="width=device-width,initial-scale=1.0">
-	</head>
-<style>html{scroll-behavior:smooth}body{font-family:Arial,Helvetica,sans-serif;font-size:20px}#myBtn{transition-duration:.4s;display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:18px;border:0;outline:0;background-color:#3fb0d9;color:white;cursor:pointer;padding:15px;border-radius:8px}#myBtn:hover{transition-duration:.4s;background-color:#73c7e6}#myImg{border-radius:5px;cursor:pointer;transition:.3s}#myImg:hover{opacity:.7}.modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,0.9)}.modal-content{margin:auto;display:block;width:80%;max-width:700px}#caption{margin:auto;display:block;width:80%;max-width:700px;text-align:center;color:#ccc;padding:10px 0;height:150px}.modal-content,#caption{-webkit-animation-name:zoom;-webkit-animation-duration:.6s;animation-name:zoom;animation-duration:.6s}@-webkit-keyframes zoom{from{-webkit-transform:scale(0)}to{-webkit-transform:scale(1)}}@keyframes zoom{from{transform:scale(0)}to{transform:scale(1)}}.close{position:absolute;top:15px;right:35px;color:#f1f1f1;font-size:40px;font-weight:bold;transition:.3s}.close:hover,.close:focus{color:#bbbb;text-decoration:none;cursor:pointer}@media only screen and (max-width:700px){.modal-content{width:100%}}</style>
-<button onclick=topFunction() id=myBtn title="Retourner en haut" <i class="fa fa-arrow-up" aria-hidden="true"></i></button>
-	<body>
-		<h1 class=port_text>REQUISTON Timothé<br>
-				Site web</h1>
-			<div class=topnav id=myTopnav>
-				<b><a class="bkg-topnav" href=#myself>Présentation</a></b>
-				<b><a class="bkg-topnav" href=#school>Parcours scolaire</a></b>
-				<b><a class="bkg-topnav" href=#cv>Curriculum vitæ</a></b>
-				<b><a class="bkg-topnav" href=#realisation>Réalisations professionnelles</a></b>
-				<b><a class="bkg-topnav" href=#contact>Contact</a></b>
-<br>
-<a href=javascript:void(0) class=icon onclick=myFunction()>&#9776;</a><br><br><br><br>
-			</div>
-				<p><a class=titles_text id=myself>Présentation</a></p><br>
-					<p>Bonjour, moi c'est Timothé REQUISTON, j'ai 19 ans,<br>
-						je fais un BTS SIO au lycée Mathias à châlon sur Saône,<br>
-						j'aimerais vous présenter mon Site web (portfolio) professionnel.<br><br></p>
-					<u>Vous y trouverez</u> :<br><br>
-						<p><li>Mon Parcours scolaire</li></p>
-						<p><li>Mon Curriculum vitæ</li></p>
-						<p><li>Mes Réalisations professionnelles</li></p>
-						<p><li>Et plus au fur et à mesure de mon avenir</li></p><br><br><br><br>
-						<p><a class=titles_text id=school>Parcours scolaire</a></p>
-			<div class=container>
-				<ul class=progressbar>
-					<li class=active2>Brevet des collèges (2016/2017)</li>
-					<li class=active2>Brevet d'étutes professionnelles (2018/2019)</li>
-					<li class=active2>Baccalauréat professionnel Système Numérique (2019/2020)</li>
-					<li>Brevet de Technicien Supérieur SIO (2021/2022)</li>
-				</ul>
-			</div>
-<br><br><br><br><br><br><br><br><br><br>
-						<p><a class=titles_text id=cv>Curriculum vitæ</a></p><br>
-							<img class=title_web id=myImg src=cv.png Alt="Mon Curriculum vitæ" style=width:100%;max-width:300px></img><br>
-							<p>(Cliquez pour ouvrir en grand)</p><br>
-								<a href=cv.pdf target=_blank class=button>Télécharger (PDF)</a><br><br><br><br><br><br>
-			<div id=myModal class=modal>
-				<span class=close>&times;</span>
-					<img class=modal-content id=img01>
-						<div id=caption></div>
-			</div>
-						<p><a class=titles_text id=realisation>Réalisations professionnelles</a></p><br>
-							
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="réa1.png" style="width:100%">
-  <div class="text">Première réalisation</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="réa2.png" style="width:100%">
-  <div class="text">Seconde réalisation</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="réa3.png" style="width:100%">
-  <div class="text">Troisième réalisation</div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script><br><br>
-	</body>
-	
-	<footer>
-						<p><a class=titles_text id=contact>Contact</a></p><br>
-						
-						<img class=title_web src="moi.png" alt=Moi>
-						
-						<p>Nom : REQUISTON<br><br>
-						Prénom : Timothé<br><br>
-						Mail : <a href="mailto:tim-req.pro@outlook.fr">tim-req.pro@outlook.fr</p><br>
-	</footer>
-	<script src=https://kit.fontawesome.com/46e2646893.js crossorigin=anonymous></script>
-	<script>var mybutton=document.getElementById("myBtn");window.onscroll=function(){scrollFunction()};function scrollFunction(){if(document.body.scrollTop>300||document.documentElement.scrollTop>300){mybutton.style.display="block"}else{mybutton.style.display="none"}}function topFunction(){document.body.scrollTop=0;document.documentElement.scrollTop=0}var modal=document.getElementById("myModal");var img=document.getElementById("myImg");var modalImg=document.getElementById("img01");var captionText=document.getElementById("caption");img.onclick=function(){modal.style.display="block";modalImg.src=this.src;captionText.innerHTML=this.alt};var span=document.getElementsByClassName("close")[0];span.onclick=function(){modal.style.display="none"};</script>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REQUISTON Timothé</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+  <link rel="stylesheet" href="default.css">
+</head>
+<body>
+	  <div class="profile-card">
+	    <div class="card-header">
+	      <div class="pic">
+	       <img src="moi.png" alt="">
+	      </div>
+	      <div style="float:right;" class="name">REQUISTON<br>Timothé<br>19 ans</div><br><br>
+	      <center><div class="desc">Développeur</div></center><br>
+	      <center><a href="mailto:tim-req.pro@outlook.fr" class="contact-btn">Me contacter</a></center>
+	      <center><a href="https://www.linkedin.com/in/timoth%C3%A9-requiston-50a6771a3" tarhet="_blank" class="discord-btn">Mon Linkedin</a></center>
+		  <center><a href="cv.html" class="contact-btn">Mon Curriculum vitæ</a></center>
+	    </div>
+	    <div class="card-footer">
+	      <div class="numbers">
+	        <div class="item">
+	          <center><span>Connaissances</span></center>
+	          <center>HTML & CSS  - CLICKTEAM FUSION</center>
+	        </div>
+	      </div>
+		</div>
+	  </div>
+</body>
 </html>
