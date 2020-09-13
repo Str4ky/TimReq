@@ -34,8 +34,7 @@ body{
 
 .pic{
   display: inline-block;
-  padding: px;
-  margin: auto;
+  margin-left: 11.5%;
 }
 
 @keyframes animated-gradient{
@@ -65,18 +64,19 @@ body{
   color: #f2f2f2;
   font-size: 28px;
   font-weight: 600;
-  margin: 10px 0;
+  margin: 12px 15px;
 }
 
 .desc{
-  font-size: 18px;
+  font-size: 19px;
   color: #d580ff;
 }
 
 .sm{
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  margin: 10px 10px;
+  margin-left: 12%;
 }
 
 .sm a{
