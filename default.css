@@ -17,7 +17,6 @@ body{
 
 .profile-card{
   width: 400px;
-  text-align: center;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 20px #000000b3;
@@ -65,7 +64,7 @@ body{
 
 .desc{
   font-size: 19px;
-  color: #d580ff;
+  color: #B280FF;
 }
 
 .sm{
@@ -83,14 +82,14 @@ body{
 }
 
 .sm a:hover{
-  color: #d580ff;
+  color: #B280FF;
 }
 
 .contact-btn{
   display: inline-block;
   padding: 12px 50px;
-  color: #d580ff;
-  border: 2px solid #d580ff;
+  color: #B280FF;
+  border: 2px solid #B280FF;
   border-radius: 6px;
   margin-top: 16px;
   transition: .3s linear;
@@ -99,20 +98,20 @@ body{
 .discord-btn{
   display: inline-block;
   padding: 12px 50px;
-  color: #d580ff;
-  border: 2px solid #d580ff;
+  color: #B280FF;
+  border: 2px solid #B280FF;
   border-radius: 6px;
   margin-top: 16px;
   transition: .3s linear;
 }
 
 .contact-btn:hover{
-  background: #d580ff;
+  background: #B280FF;
   color: #f2f2f2;
 }
 
 .discord-btn:hover{
-  background: #d580ff;
+  background: #B280FF;
   color: #f2f2f2;
 }
 
