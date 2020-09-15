@@ -67,6 +67,10 @@ body{
   margin: 12px 20px;
 }
 
+.mail{
+	color: #E5A3FF;
+}
+
 .desc{
   font-size: 19px;
   color: #B280FF;
