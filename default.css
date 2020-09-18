@@ -70,13 +70,13 @@ body{
 .mail{
 	color: #E5A3FF;
 	font-weight: bold;
-	margin-left: 16px;
+	margin-left: 12px;
 }
 
 .phone{
 	color: #E5A3FF;
 	font-weight: bold;
-	margin-left: 35px;
+	margin-left: 32px;
 	padding-right: 5px;
 	padding-left: 2px;
 }
@@ -84,7 +84,7 @@ body{
 .discord{
 	color: #E5A3FF;
 	font-weight: bold;
-	margin-left: 20px;
+	margin-left: 18px;
 }
 
 .desc{
