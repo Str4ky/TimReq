@@ -69,6 +69,14 @@ body{
 
 .mail{
 	color: #E5A3FF;
+	font-weight: bold;
+	margin-left: 16px;
+}
+
+.mail2{
+	color: #E5A3FF;
+	font-weight: bold;
+	margin-left: 34px;
 }
 
 .desc{
@@ -91,6 +99,25 @@ body{
 }
 
 .sm a:hover{
+  color: #B280FF;
+}
+
+.sm2{
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
+  margin-left: 28%;
+}
+
+.sm2 a{
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 28px;
+  transition: .3s linear;
+  margin-right: 100px;
+}
+
+.sm2 a:hover{
   color: #B280FF;
 }
 
