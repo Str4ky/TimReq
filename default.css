@@ -131,6 +131,10 @@ body{
   transform: scale(1.35);
 }
 
+.marge{
+	margin-top: 8px;
+}
+
 .contact-btn{
   display: inline-block;
   padding: 12px 50px;
