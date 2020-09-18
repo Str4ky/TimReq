@@ -73,10 +73,18 @@ body{
 	margin-left: 16px;
 }
 
-.mail2{
+.phone{
 	color: #E5A3FF;
 	font-weight: bold;
-	margin-left: 34px;
+	margin-left: 35px;
+	padding-right: 5px;
+	padding-left: 2px;
+}
+
+.discord{
+	color: #E5A3FF;
+	font-weight: bold;
+	margin-left: 20px;
 }
 
 .desc{
@@ -87,6 +95,7 @@ body{
 .sm{
   display: flex;
   justify-content: center;
+  text-align: center;
   margin: 10px 10px;
   margin-left: 12%;
 }
@@ -100,6 +109,7 @@ body{
 
 .sm a:hover{
   color: #B280FF;
+  transform: scale(1.35);
 }
 
 .sm2{
@@ -119,6 +129,7 @@ body{
 
 .sm2 a:hover{
   color: #B280FF;
+  transform: scale(1.35);
 }
 
 .contact-btn{
